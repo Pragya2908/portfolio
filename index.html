@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pragya is a graphic designer crafting expressive identities, campaigns, and visual systems for brave brands." />
+    <meta name="theme-color" content="#101012" />
+    <title>Pragya</title>
+    <link rel="icon" type="image/svg+xml" href="assests/images/logo.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Pragya home">
+        <span class="brand-mark" aria-hidden="true">P</span>
+        <span class="brand-name">pragya<span class="brand-dot">.</span></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#illustrations">Illustrations</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-cta" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+      <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#illustrations">Illustrations</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-pad" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow hero-eyebrow"><span class="eyebrow-dot"></span> Independent visual designer · 08—24</p>
+          <h1 id="hero-title">Hello<br /><em>there</em><span class="title-star" aria-hidden="true">✳</span></h1>
+          <div class="hero-bottomline">
+            <p class="hero-intro">I make bold visual worlds for brands with something to say.</p>
+            <a class="round-link" href="#work" aria-label="Scroll to selected work"><span>View<br />selected<br />work</span><strong aria-hidden="true">↓</strong></a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Abstract portrait collage">
+          <div class="hero-motion-field" aria-hidden="true">
+            <span class="motion-word motion-word-one">MAKE / MOVE / MATTER</span>
+            <span class="motion-word motion-word-two">PRAGYA — PRO DESIGNER</span>
+            <span class="motion-pill motion-pill-one">IDENTITY</span>
+            <span class="motion-pill motion-pill-two">FORM + FEELING</span>
+            <i class="motion-dot motion-dot-one"></i>
+            <i class="motion-dot motion-dot-two"></i>
+            <i class="motion-dot motion-dot-three"></i>
+          </div>
+          <div class="art-sticker sticker-one">DESIGN<br />FORWARD</div>
+          <div class="art-sticker sticker-two">NO<br />BORING<br />BRIEFS</div>
+          <div class="portrait-card flipbook-card" role="button" tabindex="0" aria-label="Cat illustration. Click to flip through three project previews" aria-live="polite">
+            <img class="portrait-base-image" src="assests/images/main page billa.png" alt="Illustrated black cat wearing a green hood" />
+            <div class="portrait-glow"></div>
+            <div class="portrait-shape portrait-shape-one"></div>
+            <div class="portrait-shape portrait-shape-two"></div>
+            <div class="portrait-head"></div>
+            <div class="portrait-hair"></div>
+            <div class="portrait-face-line"></div>
+            <div class="portrait-body"></div>
+            <span class="portrait-label">PR / 01</span>
+            <div class="portrait-flip-hint">CLICK TO<br />FLIP WORK <span>↗</span></div>
+            <div class="portrait-project-page" aria-hidden="true">
+              <img class="page-image" src="assests/images/homero tile image.png" alt="Homero's warm wooden dining table" />
+              <a class="page-arrow" href="#detail-project-1" aria-label="Open Homero detailed view">↗</a>
+            </div>
+          </div>
+          <!-- <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div> -->
+          <div class="hero-number">01<br /><span>—</span><br />05</div>
+        </div>
+        <div class="hero-scroll-note"><span class="scroll-line"></span> Scroll to explore</div>
+      </section>
+
+      <section id="about" class="about section-pad section-dark" aria-labelledby="about-title">
+        <div class="section-kicker"><span>01</span><span class="kicker-line"></span><span>About me</span></div>
+        <div class="about-grid">
+          <h2 id="about-title">Ideas with<br /><span>good posture.</span></h2>
+          <div class="about-photo-slot" aria-label="Portrait photo placeholder for Pragya">
+            <div class="about-photo-frame">
+              <img src="assests/images/me.jpeg">
+              <!-- <span>PRAGYA</span><small>ADD PORTRAIT</small> -->
+            </div>
+            <i class="about-photo-orbit" aria-hidden="true"></i>
+            <svg class="about-doodle" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+              <path d="M8 40c1-2 3-3 6-3l5-10c1-2 3-3 6-3h15c3 0 5 1 7 4l6 9 4 1c2 1 3 2 3 5v4H7v-4c0-1 0-2 1-3Z" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="m21 36 4-8c.5-1 1.5-2 3-2h11c2 0 3 1 4 3l4 7H21Z" stroke="currentColor" stroke-width="2.3" stroke-linejoin="round" />
+              <path d="M9 41h5m37 0h4" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" />
+              <circle cx="19" cy="47" r="4.5" fill="var(--ink)" stroke="currentColor" stroke-width="2.3" />
+              <circle cx="46" cy="47" r="4.5" fill="var(--ink)" stroke="currentColor" stroke-width="2.3" />
+            </svg>
+          </div>
+          <div class="about-copy">
+            <p class="large-copy">I’m Pragya, a graphic designer and visual storyteller based in India. I build identities that feel clear at first glance and more interesting the longer you look.</p>
+            <p>Over the last 6+ years, I’ve partnered with founders, culture-shapers, and teams who care about the details. From a single mark to a whole visual language, I turn fuzzy ideas into memorable systems.</p>
+            <div class="about-meta"><span>Currently taking on</span><strong>Identity · Campaigns<br />Digital experiences</strong></div>
+          </div>
+        </div>
+        <div class="about-ticker" aria-hidden="true"><span>Curiosity / clarity / character /</span><span>Curiosity / clarity / character /</span></div>
+      </section>
+
+      <section id="work" class="work section-pad" aria-labelledby="work-title">
+        <div class="section-kicker"><span>02</span><span class="kicker-line"></span><span>Selected work</span></div>
+        <div class="work-heading">
+          <h2 id="work-title">Six distinct<br /><span>visual worlds.</span></h2>
+          <p>A curated set of brand, product, and campaign work. Explore each project for the full story.</p>
+        </div>
+        <div class="project-showcase" aria-label="Rotating featured project previews">
+          <div class="project-showcase-ring"><img src="assests/images/vinyl-record.png" alt="Vinyl record centerpiece for Pragya's featured projects" /></div>
+          <audio id="selected-work-audio" src="assests/audio/white_records.mp3" preload="none" loop></audio>
+          <button class="vinyl-audio-toggle" id="vinyl-audio-toggle" type="button" aria-label="Play selected work soundtrack" aria-pressed="false"><span class="audio-toggle-icon" aria-hidden="true">▶</span><span class="audio-toggle-label">Play sound</span></button>
+          <nav class="project-motion-nav" aria-label="Jump to featured project">
+            <!-- <span class="motion-nav-label">rotate<br />to explore</span> -->
+            <a class="preview-link preview-one" href="#detail-project-1" style="--i: 0" data-preview-image="assests/images/homero tile image.png" data-preview-title="Homero" data-preview-meta="Brand world" aria-label="Jump to detailed project 1, Homero"><span class="record-thumbnail">HOMERO</span><small>01</small></a>
+            <a class="preview-link preview-two" href="#detail-project-2" style="--i: 1" data-preview-image="assests/images/supply6 tile image.png" data-preview-title="Supply Six" data-preview-meta="Nutrition brand / digital" aria-label="Jump to detailed project 2, Supply Six"><span class="record-thumbnail">SUPPLY<br />SIX</span><small>02</small></a>
+            <a class="preview-link preview-three" href="#detail-project-3" style="--i: 2" data-preview-image="assests/images/mevo-tile.png" data-preview-title="Mevo" data-preview-meta="Packaging design" aria-label="Jump to detailed project 3, Mevo"><span class="record-thumbnail">MEVO</span><small>03</small></a>
+            <a class="preview-link preview-four" href="#detail-project-4" style="--i: 3" data-preview-image="assests/images/haven tile image.png" data-preview-title="Haven" data-preview-meta="Product experience" aria-label="Jump to detailed project 4, Haven"><span class="record-thumbnail">HAVEN</span><small>04</small></a>
+            <a class="preview-link preview-five" href="#detail-project-5" style="--i: 4" data-preview-image="assests/images/govindam tile image.png" data-preview-title="Govindam" data-preview-meta="Sweets &amp; snacks identity" aria-label="Jump to detailed project 5, Govindam"><span class="record-thumbnail">GOVINDAM</span><small>05</small></a>
+            <a class="preview-link preview-six" href="#detail-project-6" style="--i: 5" data-preview-image="assests/images/social media tile image.png" data-preview-title="Social Media" data-preview-meta="Campaign design" aria-label="Jump to detailed project 6, Social Media"><span class="record-thumbnail">SOCIAL<br />MEDIA</span><small>06</small></a>
+          </nav>
+          <div class="project-hover-preview" aria-hidden="true"><img src="" alt="" /><div><b></b><em></em></div></div>
+          <p class="showcase-caption"><span class="showcase-pulse"></span> Six featured worlds / click a moving preview</p>
+        </div>
+        <!-- <div class="project-list">
+          <article id="project-1" class="project-card project-orange">
+            <div class="project-visual visual-project visual-homero"><span class="visual-small">01 / HOMERO</span><strong>HOMERO</strong><span class="visual-stamp">BRAND<br />WORLD</span></div>
+            <div class="project-info"><div><span class="project-index">01 / 05</span><h3>Homero</h3></div><p>Branding / Digital / Social Media</p><a href="#detail-project-1" aria-label="View detailed Homero project">↗</a></div>
+          </article>
+          <article id="project-2" class="project-card project-lilac project-offset">
+            <div class="project-visual visual-project visual-haven"><span class="visual-small">02 / HAVEN</span><strong>HAVEN</strong><span class="visual-ui">UI / UX<br />PRODUCT</span></div>
+            <div class="project-info"><div><span class="project-index">02 / 05</span><h3>Haven</h3></div><p>UI/UX / Product Design</p><a href="#detail-project-2" aria-label="View detailed Haven project">↗</a></div>
+          </article>
+          <article id="project-3" class="project-card project-lime">
+            <div class="project-visual visual-behance"><img src="assests/images/sprinkles.webp" alt="Sprinkles brand identity concept with earthy brand colors" loading="lazy" /></div>
+            <div class="project-info"><div><span class="project-index">03 / 05</span><h3>Sprinkles</h3></div><p>Brand Identity / Packaging</p><a href="#detail-project-3" aria-label="View detailed Sprinkles project">↗</a></div>
+          </article>
+          <article id="project-4" class="project-card project-ink project-offset">
+            <div class="project-visual visual-behance visual-mevo-photo"><img src="assests/images/mevo-packaging.png" alt="Mevo premium dry-fruit and healthy-snacking packaging identity" loading="lazy" /></div>
+            <div class="project-info"><div><span class="project-index">04 / 05</span><h3>Mevo</h3></div><p>Branding · Packaging Design</p><a href="#detail-project-4" aria-label="View detailed Mevo project">↗</a></div>
+          </article>
+          <article id="project-5" class="project-card project-paper">
+            <div class="project-visual visual-project visual-social"><span class="visual-small">05 / SOCIAL MEDIA</span><strong>SOCIAL<br />MEDIA</strong><span class="visual-stamp">CONTENT<br />CAMPAIGN</span></div>
+            <div class="project-info"><div><span class="project-index">05 / 05</span><h3>Social Media</h3></div><p>Content / Campaign Design</p><a href="#detail-project-5" aria-label="View detailed Social Media project">↗</a></div>
+          </article>
+        </div> -->
+        <section class="project-details" aria-labelledby="project-details-title">
+          <div class="section-kicker"><span>Project notes</span><span class="kicker-line"></span><span>Detailed view</span></div>
+          <div class="project-details-heading"><h2 id="project-details-title">The work,<br /><span>up close.</span></h2><p>Briefs, concepts, and design decisions pulled from the original Behance portfolio case study.</p></div>
+          <div class="detail-list">
+            <article id="detail-project-1" class="detail-card detail-homero">
+              <div class="detail-copy"><span class="project-index">01 / Homero</span><h3>A brand world built to move.</h3><p>Homero brings a connected identity across brand touchpoints, digital experiences, and social content. This detail view is ready for the full project story and final applications.</p><dl><div><dt>Focus</dt><dd>Branding + digital</dd></div><div><dt>Channels</dt><dd>Social media</dd></div><div><dt>Direction</dt><dd>Distinctive visual system</dd></div></dl><button class="case-study-trigger" type="button" data-project="homero">Open full project <span>↗</span></button></div>
+              <!-- <div class="detail-image detail-art-homero"><span>HOMERO</span></div> -->
+               <div class="detail-image"><img src="assests/images/homero tile image.png" alt="Homero brand identity project" loading="lazy" /></div>
+            </article>
+            <article id="detail-project-2" class="detail-card detail-supply6">
+              <div class="detail-copy"><span class="project-index">02 / Supply Six</span><h3>Daily nutrition, made simple.</h3><p>Supply6 is a daily nutrition brand built to help bridge common gaps in modern diets. I worked on its visual identity and digital experience, making product discovery and wellness information feel clear and approachable.</p><dl><div><dt>Focus</dt><dd>Brand identity</dd></div><div><dt>Output</dt><dd>Digital experience</dd></div><div><dt>Direction</dt><dd>Clear · energetic · everyday</dd></div></dl><a class="supply6-site-link" href="https://supplysix.com/" target="_blank" rel="noopener noreferrer">Visit Supply6 site ↗</a><button class="case-study-trigger" type="button" data-project="supply6">Open full project <span>↗</span></button></div>
+              <div class="detail-image detail-supply6-image"><img src="assests/images/supply6 tile image.png" alt="Supply6 project tile artwork" loading="lazy" /></div>
+            </article>
+            <article id="detail-project-3" class="detail-card detail-mevo">
+              <div class="detail-copy"><span class="project-index">03 / Mevo</span><h3>A fresh identity for everyday nourishment.</h3><p>MEVO is a premium dry-fruit brand built around quality, freshness, and everyday nourishment. I created a warm, earthy identity and flexible packaging system that carries its story from farm to shelf.</p><dl><div><dt>Focus</dt><dd>Branding</dd></div><div><dt>Output</dt><dd>Packaging design</dd></div><div><dt>Direction</dt><dd>Warm · earthy · premium</dd></div></dl><button class="case-study-trigger" type="button" data-project="mevo">Open full project <span>↗</span></button></div>
+              <div class="detail-image detail-mevo-image"><img src="assests/images/mevo-tile.png" alt="Mevo packaging identity across dry-fruit product variants" loading="lazy" /></div>
+            </article>
+            <article id="detail-project-4" class="detail-card detail-haven">
+              <div class="detail-image detail-art-haven"><img src="assests/images/haven tile image.png" alt="Haven product design project" loading="lazy" /></div>
+              <div class="detail-copy"><span class="project-index">04 / Haven</span><h3>Designing a calmer product experience.</h3><p>Haven is the product-focused project in the collection, bringing interface thinking and visual clarity together across a considered UI/UX system.</p><dl><div><dt>Focus</dt><dd>UI/UX</dd></div><div><dt>Output</dt><dd>Product design</dd></div><div><dt>Approach</dt><dd>Clear · useful · human</dd></div></dl><button class="case-study-trigger" type="button" data-project="haven">Open full project <span>↗</span></button></div>
+            </article>
+            <article id="detail-project-5" class="detail-card detail-govindam">
+              <div class="detail-image"><img src="assests/images/govindam tile image.png" alt="Govindam sweets and snacks identity" loading="lazy" /></div>
+              <div class="detail-copy"><span class="project-index">05 / Govindam</span><h3>A heritage led identity for sweets and snacks.</h3><p>Govindam brings pure desi ghee sweets and snacks into a warm, premium brand world inspired by Indian craft, rich ingredients, and thoughtful hospitality.</p><dl><div><dt>Focus</dt><dd>Brand identity</dd></div><div><dt>Output</dt><dd>Packaging</dd></div><div><dt>Direction</dt><dd>Heritage · rich · refined</dd></div></dl><button class="case-study-trigger" type="button" data-project="govindam">Open full project <span>↗</span></button></div>
+            </article>
+            <article id="detail-project-6" class="detail-card detail-social">
+              <div class="detail-image detail-art-social"><img src="assests/images/social media tile image.png" alt="Social media campaign design" loading="lazy" /></div>
+              <div class="detail-copy"><span class="project-index">06 / Social Media</span><h3>Content with a campaign pulse.</h3><p>A flexible content and campaign design system for social channels, built to make ideas legible, engaging, and consistent across a fast-moving feed.</p><dl><div><dt>Focus</dt><dd>Content design</dd></div><div><dt>Output</dt><dd>Campaign system</dd></div><div><dt>Approach</dt><dd>Clear · kinetic · social-first</dd></div></dl><button class="case-study-trigger" type="button" data-project="social">Open full project <span>↗</span></button></div>
+            </article>
+          </div>
+        </section>
+        <button class="publication-bar" id="publication-trigger" type="button" aria-haspopup="dialog" aria-controls="publication-modal"><span><b>07</b><i></i><strong>Publishing</strong></span><small>Three book worlds / open the shelf</small><span class="publication-arrow">↗</span></button>
+        <dialog class="case-study-modal" id="case-study-modal" aria-labelledby="case-study-title">
+          <button class="modal-close case-study-close" type="button" aria-label="Close project case study">×</button>
+          <div class="case-study-hero"><span id="case-study-number" class="project-index">01 / PROJECT</span><h2 id="case-study-title">HOMERO</h2><p id="case-study-category">Branding / Digital / Social Media</p></div>
+          <div class="case-study-body">
+            <div class="case-study-intro"><span class="eyebrow-dot"></span><p id="case-study-tagline">A brand world built to move.</p></div>
+            <div class="case-study-sections" id="case-study-sections"></div>
+          </div>
+        </dialog>
+        <dialog class="publication-modal" id="publication-modal" aria-labelledby="publication-title">
+          <button class="modal-close" type="button" aria-label="Close publication shelf">×</button>
+          <div class="publication-modal-head"><div><span class="project-index">07 / PUBLISHING</span><h2 id="publication-title">The book<br /><span> shelf.</span></h2></div><p>Three publication studies from Pragya’s portfolio — each one balancing story, structure, and a tactile point of view.</p></div>
+          <div class="publication-list">
+            <article class="publication-item"><div class="publication-about"><span class="project-index">01 / Publication</span><h3>Shaping the Bharatiya Renaissance</h3><p>A culture-led book concept celebrating Indian thought, history, and renewal through editorial structure and a considered visual language.</p><small>Editorial / Book design</small></div><div class="publication-preview"><img src="assests/images/bharatiyadasan-book.webp" alt="Book preview for Shaping the Bharatiya Renaissance" loading="lazy" /></div></article>
+            <article class="publication-item"><div class="publication-about"><span class="project-index">02 / Publication</span><h3>Fantasy, Reality or Delusion</h3><p>An expressive publication concept that explores the blurred edge between imagination and the world around us.</p><small>Concept / Publication design</small></div><div class="publication-preview"><img src="assests/images/reality-delusion-book.webp" alt="Book preview for Fantasy, Reality or Delusion" loading="lazy" /></div></article>
+            <article class="publication-item"><div class="publication-about"><span class="project-index">03 / Publication</span><h3>Fun with Grammar</h3><p>A playful learning publication that turns grammar into a bright, approachable visual experience for young readers.</p><small>Educational / Book design</small></div><div class="publication-preview"><img src="assests/images/fun-with-grammar-book.webp" alt="Book preview for Fun with Grammar" loading="lazy" /></div></article>
+          </div>
+        </dialog>
+      </section>
+
+      <section id="illustrations" class="illustrations section-pad" aria-labelledby="illustrations-title">
+        <div class="section-kicker"><span>03</span><span class="kicker-line"></span><span>Illustrations</span></div>
+        <div class="illustrations-heading"><h2 id="illustrations-title">A little<br /><span>off-script.</span></h2><p>Loose lines, bright worlds, and visual experiments kept separate from the five featured projects.</p></div>
+        <div class="illustration-gallery" aria-label="Illustration gallery">
+          <button class="illustration-tile illustration-sun" type="button" data-illustration-title="Window at Dusk" data-illustration-type="Digital illustration" data-illustration-image="assests/images/Illustration 1 .png" aria-label="View Window at Dusk illustration"><img class="illustration-thumb" src="assests/images/Illustration 1 .png" alt=""><strong>Window at Dusk</strong><small>Digital illustration</small></button>
+          <button class="illustration-tile illustration-faces" type="button" data-illustration-title="Lotus Study" data-illustration-type="Botanical illustration" data-illustration-image="assests/images/illustration 2.png" aria-label="View Lotus Study illustration"><img class="illustration-thumb" src="assests/images/illustration 2.png" alt=""><strong>Lotus Study</strong><small>Botanical illustration</small></button>
+          <button class="illustration-tile illustration-bloom" type="button" data-illustration-title="Window Seat" data-illustration-type="Character illustration" data-illustration-image="assests/images/illustration 3.png" aria-label="View Window Seat illustration"><img class="illustration-thumb" src="assests/images/illustration 3.png" alt=""><strong>Window Seat</strong><small>Character illustration</small></button>
+          <button class="illustration-tile illustration-rain" type="button" data-illustration-title="Winter Festival" data-illustration-type="Seasonal illustration" data-illustration-image="assests/images/illustration 4.png" aria-label="View Winter Festival illustration"><img class="illustration-thumb" src="assests/images/illustration 4.png" alt=""><strong>Winter Festival</strong><small>Seasonal illustration</small></button>
+        </div>
+        <dialog class="illustration-modal" id="illustration-modal" aria-labelledby="illustration-modal-title">
+          <button class="modal-close" type="button" aria-label="Close illustration preview">×</button>
+          <div class="modal-art"><img id="illustration-modal-image" class="modal-art-image" src="assests/images/Illustration 1 .png" alt=""><span class="modal-art-shape" aria-hidden="true"></span></div>
+          <div><span class="project-index">Illustration / Playground</span><h3 id="illustration-modal-title">Sun Study</h3><p id="illustration-modal-type">Color experiment</p></div>
+        </dialog>
+      </section>
+
+      <section id="skills" class="skills section-pad section-dark" aria-labelledby="skills-title">
+        <div class="section-kicker"><span>04</span><span class="kicker-line"></span><span>The toolkit</span></div>
+        <div class="skills-grid">
+          <div class="skills-intro"><h2 id="skills-title">Make it<br /><span>make sense.</span></h2><p>A curious mind, a sharp eye, and a soft spot for the last 5% of polish.</p></div>
+          <div class="skills-list">
+            <div class="skill-row"><span>01</span><strong>Brand identity</strong><em>logos · systems · guidelines</em></div>
+            <div class="skill-row"><span>02</span><strong>Art direction</strong><em>concept · styling · shoot direction</em></div>
+            <div class="skill-row"><span>03</span><strong>Editorial design</strong><em>print · layout · type systems</em></div>
+            <div class="skill-row"><span>04</span><strong>Digital experiences</strong><em>web · social · motion basics</em></div>
+            <div class="skill-row"><span>05</span><strong>Tools I love</strong><em>Figma · Adobe CC · After Effects</em></div>
+          </div>
+        </div>
+        <!-- <div class="skills-badge" aria-hidden="true">✳<br /><span>GOOD<br />ENERGY<br />ONLY</span></div> -->
+      </section>
+
+      <!-- <section class="testimonials section-pad" aria-labelledby="testimonials-title">
+        <div class="section-kicker"><span>05</span><span class="kicker-line"></span><span>Kind words</span></div>
+        <div class="testimonial-layout">
+          <div><h2 id="testimonials-title">“She got<br /><span>the feeling.</span>”</h2><div class="testimonial-controls"><button type="button" aria-label="Previous testimonial">←</button><span>01 <i></i> 03</span><button type="button" aria-label="Next testimonial">→</button></div></div>
+          <figure class="quote-card"><blockquote>“Pragya has that rare ability to zoom out for the big idea and zoom in for the tiny detail — all while making the process feel genuinely fun.”</blockquote><figcaption><span class="quote-avatar">AK</span><span><strong>Ananya Kapoor</strong><small>Founder, Common Ground</small></span></figcaption></figure>
+        </div>
+      </section> -->
+
+      <section id="contact" class="contact section-pad section-orange" aria-labelledby="contact-title">
+        <div class="section-kicker"><span>06</span><span class="kicker-line"></span><span>Start a conversation</span></div>
+        <div class="contact-grid">
+          <div class="contact-intro"><h2 id="contact-title">Have a good<br /><span>one?</span></h2><p>Tell me what you’re making, what’s keeping you up at night, or just say hi.</p><a class="email-link" href="mailto:hello@pragya.design">hello@pragya.design <span>↗</span></a></div>
+          <form class="contact-form" id="contact-form" action="https://formsubmit.co/singhpragya2908@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New portfolio contact message" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none" />
+            <label><span>Your name</span><input required type="text" name="name" placeholder="e.g. Aditi Sharma" /></label>
+            <label><span>Your email</span><input required type="email" name="_replyto" placeholder="you@company.com" /></label>
+            <label><span>What are we making?</span><textarea required name="message" rows="3" placeholder="A new identity, a campaign, something unexpected..."></textarea></label>
+            <button class="submit-button" type="submit">Send it over <span>↗</span></button>
+            <p class="form-note">No pitch decks required. Just a good starting point.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-pad">
+      <a class="brand" href="#top" aria-label="Back to top"><span class="brand-mark" aria-hidden="true">P</span><span class="brand-name">pragya<span class="brand-dot">.</span></span></a>
+      <p>© 2024 Pragya / Made with intent.</p>
+      <div class="footer-links"><a href="https://www.behance.net/gallery/183027867/Portfolio"  target="_blank" rel="noopener noreferrer">Behance</a><a href="#contact">Email</a></div>
+      <!-- <a href="#work">Instagram</a> -->
+    </footer>
+    <div class="toast" role="status" aria-live="polite"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
