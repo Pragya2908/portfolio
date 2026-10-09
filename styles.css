@@ -287,9 +287,9 @@ h2 span { color: var(--orange); }
 .case-study-trigger { display: inline-flex; align-items: center; justify-content: space-between; gap: 1rem; width: max-content; margin-top: 1.4rem; padding: .7rem .9rem; border: 1px solid currentColor; background: transparent; color: inherit; cursor: pointer; font: .64rem var(--mono); text-transform: uppercase; transition: background .2s, color .2s, transform .2s; }
 .case-study-trigger:hover, .case-study-trigger:focus-visible { background: var(--orange); color: var(--ink); transform: translate(.2rem, -.2rem); outline: 0; }
 .case-study-trigger span { font-size: 1rem; }
-.case-study-modal { width: min(94vw, 72rem); max-width: none; max-height: 92vh; padding: 0; border: 1px solid var(--ink); background: var(--paper); color: var(--ink); box-shadow: 1rem 1rem 0 var(--ink); overflow-x: hidden; overflow-y: auto; overscroll-behavior: contain; }
+.case-study-modal { position: fixed; inset: 0; margin: auto; width: min(94vw, 72rem); max-width: none; max-height: 92vh; padding: 0; border: 1px solid var(--ink); background: var(--paper); color: var(--ink); box-shadow: 1rem 1rem 0 var(--ink); overflow-x: hidden; overflow-y: auto; overscroll-behavior: contain; }
 .case-study-modal::backdrop { background: rgba(20,32,69,.8); backdrop-filter: blur(8px); }
-.case-study-modal .case-study-close { position: fixed; top: 1rem; right: 1rem; }
+.case-study-modal .case-study-close { position: sticky; float: right; top: .65rem; margin: .65rem .65rem -2.85rem 0; }
 .case-study-hero { position: relative; min-height: 15rem; padding: clamp(2rem, 5vw, 5rem); overflow: hidden; background: var(--orange); }
 .case-homero .case-study-hero { background: var(--orange) url("assests/images/homero%20banner%20bg.png") center / cover no-repeat; }
 .case-supply6 .case-study-hero { background: #eff0e7 url("assests/images/supply6%20banner%20bg.png") center / cover no-repeat; color: #183a2c; }
@@ -433,7 +433,7 @@ h2 span { color: var(--orange); }
   .detail-copy dl { gap: .65rem; }
   .detail-copy dd { font-size: .7rem; }
   .detail-image { min-height: 13rem; }
-  .case-study-modal { width: 94vw; max-height: 88vh; box-shadow: .45rem .45rem 0 var(--ink); }
+  .case-study-modal { width: 94vw; max-height: 88vh; max-height: 88dvh; box-shadow: .45rem .45rem 0 var(--ink); }
   .case-study-hero { min-height: 11rem; padding: 2rem 1.25rem; }
   .case-study-hero h2 { margin-top: .65rem; font-size: clamp(3rem, 15vw, 5rem); }
   .case-study-orbit { width: 58%; right: -18%; top: -20%; }
@@ -776,4 +776,20 @@ h2 span { color: var(--orange); }
 .publication-bar:hover .publication-arrow, .publication-bar:focus-visible .publication-arrow { transform: translateX(.35rem) rotate(-12deg); color: var(--orange); }
 @media (prefers-reduced-motion: reduce) {
   .publication-bar::before, .publication-bar::after, .publication-bar > span:first-child, .publication-bar .publication-arrow { transition: none; }
+}
+
+/* Clear keyboard and form states for the portfolio's interactive elements. */
+:root { scroll-padding-top: 5.5rem; }
+.site-header { position: sticky; top: 0; background: color-mix(in srgb, var(--paper) 94%, transparent); backdrop-filter: blur(12px); border-bottom: 1px solid transparent; transition: border-color .2s ease; }
+.site-header:focus-within { border-bottom-color: var(--line); }
+:focus-visible { outline: 2px solid var(--orange); outline-offset: 4px; }
+.contact-form input:focus-visible,
+.contact-form textarea:focus-visible { outline: 0; box-shadow: 0 2px 0 var(--ink); }
+.contact-form label:focus-within span { color: var(--ink); }
+.contact-form input,
+.contact-form textarea { min-height: 2.5rem; }
+.contact-form textarea { min-height: 5rem; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
