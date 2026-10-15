@@ -220,7 +220,7 @@ const caseStudyTagline = document.querySelector('#case-study-tagline');
 const caseStudySections = document.querySelector('#case-study-sections');
 const caseStudies = {
   homero: {
-    number: '01 / HOMERO', title: 'HOMERO', category: 'Branding / Digital / Social Media', tagline: 'A brand world built to move.',
+    number: '01 / HOMERO', title: 'HOMERO', category: 'Brand identity / Website / Social', tagline: 'One identity across brand and digital touchpoints.',
     sections: [
   [
     'The brief',
@@ -258,16 +258,16 @@ const caseStudies = {
     ]
   },
   haven: {
-    number: '04 / HAVEN', title: 'HAVEN', category: 'UI/UX / Product Design', tagline: 'Designing a calmer product experience.',
+    number: '04 / HAVEN', title: 'HAVEN', category: 'UI/UX / Product Design', tagline: 'Interface design for Haven.',
     sections: [
-      ['The challenge', 'Turn a complex product journey into an interface that feels approachable, focused, and easy to navigate.', 'assests/images/haven 1.png', 'Haven product challenge'],
-      ['The idea', 'Give every interaction room to breathe: clear hierarchy, quiet confidence, and helpful moments that guide rather than interrupt.', 'assests/images/haven 2.png', 'Haven interface concept'],
-      ['The direction', 'A product system built around purposeful layouts, intuitive flows, and a visual language that balances utility with warmth.', 'assests/images/haven 3.png', 'Haven product design direction'],
-      ['The outcome', 'A considered UI/UX foundation for key screens, responsive states, product touchpoints, and future feature growth.', 'assests/images/haven 4.png', 'Haven product design outcome']
+      ['Project overview', 'Haven is a product design project focused on interface structure and key screens.', 'assests/images/haven 1.png', 'Haven product overview'],
+      ['Interface', 'Screen layouts establish hierarchy for the information and actions shown in the product.', 'assests/images/haven 2.png', 'Haven interface screens'],
+      ['Visual design', 'The interface uses a consistent visual style across the screens in the project.', 'assests/images/haven 3.png', 'Haven product design'],
+      ['Selected screens', 'A closer look at the product screens developed for Haven.', 'assests/images/haven 4.png', 'Haven selected screens']
     ]
   },
   govindam: {
-    number: '05 / GOVINDAM', title: 'GOVINDAM', category: 'Brand Identity / Packaging', tagline: 'A healthier kind of indulgence.',
+    number: '05 / GOVINDAM', title: 'GOVINDAM', category: 'Brand identity / Packaging', tagline: 'A visual identity rooted in Indian craft.',
     sections: [
       ['The brief', 'Create a premium sweets and snacks identity that celebrates pure desi ghee, Indian heritage, and a generous sense of hospitality.', 'assests/images/govindam 1.png', 'Govindam identity and colour palette'],
       ['The idea', 'Bring Govindam’s story to life through a peacock feather mark, botanical details, and a rich forest green and antique gold palette.', 'assests/images/govindam 2.png', 'Govindam brand world by the river'],
@@ -276,7 +276,7 @@ const caseStudies = {
     ]
   },
   mevo: {
-    number: '03 / MEVO', title: 'MEVO', category: 'Branding / Packaging Design', tagline: 'A fresh identity for everyday nourishment.',
+    number: '03 / MEVO', title: 'MEVO', category: 'Brand identity / Packaging', tagline: 'Packaging across a dry-fruit product range.',
     sections: [
       ['The brief', 'Create a premium dry-fruit and healthy-snacking brand built around quality, freshness, and natural nutrition.', 'assests/images/mevo 1.png', 'Mevo brand brief'],
       ['The idea', 'Bring the journey from source to pack into a warm, earthy visual world that feels premium and approachable.', 'assests/images/mevo 2.png', 'Mevo brand concept'],
@@ -285,7 +285,7 @@ const caseStudies = {
     ]
   },
   social: {
-    number: '06 / SOCIAL MEDIA', title: 'SOCIAL MEDIA', category: 'Content / Campaign Design', tagline: 'Content with a campaign pulse.',
+    number: '06 / SOCIAL MEDIA', title: 'SOCIAL MEDIA', category: 'Social content / Campaign design', tagline: 'A selection of campaign assets for social channels.',
     sections: [
       ['The challenge', 'Make campaign ideas feel immediate and recognizable across a fast-moving social feed.', 'assests/images/social media 1.jpeg', 'Social media campaign artwork one'],
       ['The idea', 'Build a repeatable content language that gives every post a strong first impression without making the system feel repetitive.', 'assests/images/social media 2.jpeg', 'Social media campaign artwork two'],
